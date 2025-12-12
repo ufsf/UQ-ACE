@@ -1,1 +1,9 @@
-# Clustering-based D-optimality
+# Clustering-enhanced Local D-optimality
+
+Users are encouraged to apply any clustering method to partition the dataset. Our approach was as follows:
+
+Partition: We used PRM2020 labels to divide the dataset into 15 subsets.
+
+Train: We trained 15 different ACE potentials (one for each subset).
+
+Evaluate: We calculated 15 γ values for each atom and selected the minimum value.
